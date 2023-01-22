@@ -1,56 +1,117 @@
-h1 {
-    text-align: center;
-    color: blueviolet;
-}
 
-a:link {
-    color: #ffffff;
-    padding: 15px 25px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-}
+    a:link 
+    {
+        color: #ffffff;
+        padding: 15px 25px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+    }
 
-a:hover {
-    color: grey;
-    background-color: transparent;
-    text-decoration: underline;
-}
+    a:hover 
+    {
+        color: grey;
+        background-color: transparent;
+        text-decoration: underline;
+    }
 
-a:active {
-    color: black;
-    background-color: transparent;
-    text-decoration: underline;
-}
+    a:active 
+    {
+        color: black;
+        background-color: transparent;
+        text-decoration: underline;
+    }
 
-.title {
-    color: White;
-    background-color: transparent;
-    text-align: center;
-}
+    .title
+    {
+        color: White;
+        background-color: transparent;
+        text-align: center;
+    }
+	
+	.pageTitle
+	{
+		color:Black
+		background-color: blue;
+		text-align: left;
+		font-size:10px
+	}
 
-.header {
-    padding: 0px;
-    box-sizing: border-box;
-    text-align: left;
-    background: #1D334A;
-    font-size: 40px;
-    color:White;
-}
+    /*This is was called earlier*/
+    .header 
+    {
+        padding: 0px;
+        box-sizing: border-box;
+        text-align: left;
+        background: #1D334A;
+        font-size: 40px;
+        color:White;
+    }
 
-.body {
-    margin: 0;
-    width:100vw;
-    height: 00vh;
-    color: white;
-    font-size:20px;
-}
+    .headerTitle
+    {
+        padding: 10px;
+        width: 300px;
+        text-align: left;
+        background-color: transparent;
+        font-size: 40px;
+        color:White;
+    }
 
-.footer {
-    padding: 0px;
-    box-sizing: border-box;
-    text-align: right;
-    background: #245354;
-    font-size: 25px;
-    color: white;
-}
+    /* Style the body */
+    .body 
+    {
+        margin: 0;
+        width:100vw;
+        height: 00vh;
+        color: white;
+        font-size:20px;
+    }
+
+    .footer
+    {
+        padding: 0px;
+        box-sizing: border-box;
+        text-align: right;
+        background: #245354;
+        font-size: 25px;
+        color: white;
+    }
+	
+	.homeQuote
+	{
+		background-color:transparent;
+		block-size:200px;
+		text-align:center;
+		color:white
+	}
+	
+	.upcomingEvent
+	{
+		background-color:#1D334A;
+		text-align:center;
+		width:100vw;
+		height:30vh;
+		color:white;
+		
+	}
+	
+    .trapezoid
+    {
+        position:relative;
+        
+        border-bottom: 50px solid #1D334A;
+	    border-left: 25px solid transparent;
+	    border-right: 25px solid transparent;
+	    height: 0;
+	    width: 500px;
+
+    }
+
+    h1  
+    {
+        font-family: 'Times New Roman', Times, serif;
+        font-size:25px;
+        text-align: left;
+    }
+
