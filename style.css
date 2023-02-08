@@ -97,8 +97,6 @@
     display: grid;
     gap: 10px;
     padding: 50px 100px;
-   
-    
 }
                   
     .boxArticleOne-Two 
@@ -258,5 +256,8 @@ a:visited
     }
 
 
-
+.articleLayout
+{
+    padding :20px;
+}
  
