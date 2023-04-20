@@ -170,6 +170,16 @@
         background-color:#494F56;
     }
 
+    .boxArticleNine 
+    {
+        padding: 10px;
+        color: #fff;
+        grid-column: 1;
+        grid-row: 5;
+        font-size: 20px;
+        background-color:#494F56;
+    }
+
 a:link 
 {
     color: #ffffff;
