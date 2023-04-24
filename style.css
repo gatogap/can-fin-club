@@ -28,7 +28,7 @@
 
 .wrapper
 {
-	dislay:grid;
+	display:grid;
 	grid-template-columns:1fr 2fr;
 	grid-template-rows:100px 100px;
 	gap:10px;
@@ -226,7 +226,6 @@ a:visited
     text-decoration: none;
 }
 
-   
 
     /* Style the body */
     .body 
@@ -234,7 +233,6 @@ a:visited
         margin: 0;
         width:100vw;
         height: 00vh;
-        color: white;
         font-size:20px;
     }
 
@@ -245,7 +243,6 @@ a:visited
         text-align: right;
         background: #245354;
         font-size: 20px;
-        color: white;
     }
 	
 	.homeQuote
@@ -287,6 +284,20 @@ a:visited
 
 .articleLayout
 {
-    padding :20px;
+    padding: 0px 20px;
 }
- 
+
+.parallax
+{
+    /* The image used */
+    background-image: url('Images//SiliconValleyParallax.jpg');
+     /*https://pixabay.com/photos/silhouettes-people-bank-suitcase-6576684/ By:wal_172619 / 2976 */
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding: 23% 0%;
+
+}
