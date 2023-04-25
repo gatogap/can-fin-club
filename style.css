@@ -51,7 +51,7 @@
     display: grid;
     gap: 10px;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 70px 200px;
+    grid-template-rows: auto auto;
     background-color: #1D334A;
 }
       
@@ -73,7 +73,14 @@
     .box3 
     {
         color: #fff;
-        grid-column: 2/3;
+        grid-column: 2/4;
+        grid-row: 2/3;
+    }
+	
+	.box4 
+    {
+        color: #fff;
+        grid-column: 3/4;
         grid-row: 2/3;
     }
 
