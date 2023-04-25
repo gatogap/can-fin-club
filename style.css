@@ -246,11 +246,12 @@ a:visited
 
     .footer
     {
-        padding: 0px;
+        padding-right: 10px;
         box-sizing: border-box;
         text-align: right;
         background: #245354;
         font-size: 20px;
+        color: black;
     }
 	
 	.homeQuote
@@ -279,7 +280,7 @@ a:visited
 	    border-left: 25px solid transparent;
 	    border-right: 25px solid transparent;
 	    height: 0;
-	    width: 500px;
+	    width: 50%;
     }
 
     h1

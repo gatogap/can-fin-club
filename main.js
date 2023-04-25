@@ -13,7 +13,7 @@ customElements.define('my-header',MyHeader)
 class MyFooter extends HTMLElement {
     connectedCallback()
     {
-    this.innerHTML = '<footer><br> <p style = "background-color:black; color:white; font-size:20px">DISCLAIMER: All information provided on this website is for educational purposes only. This is not meant as investment recommendation or professional advice. The finance and investment club does not seek to advise anybody in the investment of any securities.</p><div class="footer"> <h4><br>Contact&nbsp;&nbsp;&nbsp;&nbsp;</h4> <p>Email: fandiclubcan@my.smccd.edu&nbsp;&nbsp;&nbsp;&nbsp;</p> <p>Meeting Dates and Hours&nbsp;&nbsp;&nbsp;&nbsp;<br>Tuesdays 8:30 pm&nbsp;&nbsp;&nbsp;&nbsp;</p> <p><a href="https://smccd.zoom.us/j/89860497417">Zoom Link Here</a></p> </footer> '
+    this.innerHTML = '<footer><br> <p style = "background-color:black; color:white; font-size:20px; padding:20px;">DISCLAIMER: All information provided on this website is for educational purposes only. This is not meant as investment recommendation or professional advice. The finance and investment club does not seek to advise anybody in the investment of any securities.</p><div class="footer"> <h4><br>Contact&nbsp;</h4> <p>Email: fandiclubcan@my.smccd.edu&nbsp;</p> <p>Meeting Dates and Hours;<br>Tuesdays 8:30 pm;</p> <p><a href="https://smccd.zoom.us/j/89860497417">Zoom Link Here</a></p> </footer> '
     }
 }
 customElements.define('my-footer',MyFooter)
